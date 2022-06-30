@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 
 void main()
 {
@@ -245,3 +246,35 @@ void compute()
 //     compute();
 //     return 0;
 // }
+
+// c program which computes and prints cube roots for integers between 1 and 6
+
+void getCubes()
+{
+    for (int i = 1; i <= 6; i++)
+    {
+        int j;
+        j = pow(i, 3);
+        printf("%d\n", j);
+    }
+}
+
+// run getCubes function in main
+
+// c program which computes and prints the sum of squares of integers which are divisible by 3 and 5 from 100 to 1
+
+void getSqrBtnArr()
+{
+    int j, sum;
+    for (int i = 0; i <= 100; i++)
+    {
+        if (i % 3 == 0 && i % 5 == 0)
+        {
+
+            j = i * i;
+            int r = sum += j;
+
+            printf("%d and sum is   %d\n", j, r);
+        }
+    }
+}
