@@ -278,3 +278,102 @@ void getSqrBtnArr()
         }
     }
 }
+
+// Test 7/01/22
+
+
+/*
+coded by Anslem 
+*/  
+
+
+//main function
+int main(){
+	//call desired function
+	return 0;
+}
+
+
+// squares of even numbers from 1-30
+int srsEven(){
+	int i;
+	for( i=0;i<=30;i++){
+	 
+	if(i%2==0){
+	  int j;
+			j= i*i;
+		printf( "%d\n",j);
+	}
+	}
+	return 0;
+}
+
+// integers divisble  by 4 and 5 btn 1-1000 
+void intDivisible(){
+	int i;
+	for (i=0;i<=1000; i++){
+		if (i%4==0 && i%5==0){
+			printf( "%d\n",i);
+	}
+	}
+}
+
+//cubes of odnumbers btn 0-30
+void oddCubes(){
+	int i,j;
+	for (i=0;i<=30; i++){
+		if(i%2==1){
+			j= i*i*i;
+			printf("%d\n",j);
+		}
+	}
+}
+
+//sum of first 10 integers
+void sumOfInt(){
+	 int  i, sum = 0;
+
+    printf("The ints between 1 and 10 number are :\n");
+ 
+    for (i = 1; i <= 10; i++)
+    {
+        sum = sum + i;
+        printf("%d ",i);    
+    }
+    // call sum after loop
+    printf("\nThe Sum is : %d\n", sum);
+}
+
+// sum of ints between 0-20
+void sumBtnRange(){
+	int i,sum;
+	for (i=1;i<=20; i++){
+		sum= sum+i;
+	}
+		printf("Sum of all positive ints <20 is : %d\n",sum);
+}
+                                                                                                                                                    
+//  values divisible by 2,3 and 7
+
+void valuesPerRange(){
+	 int i;
+for (i=1;i<=1000;i++){
+  if(i%2==0 && i%3==0 && i%7==0){
+    printf("%d\n",i);
+  }
+}
+
+}
+
+// sum of squares from 1-50
+int sqrs(void){
+	int i,j,sum;
+	for (i=1;i<=50;i++){
+		j= i*i;
+		sum =sum+j;
+		printf("The values are : %d\n",j);
+		
+	}
+	 printf("\n***********************\n");
+		printf("\n And there sum  is : %d\n",sum);
+}
